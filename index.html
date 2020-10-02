@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en" class = "nojs">
+  <head>
+    <title>ITMD-362-Lab 2, Sean Reimer</title>
+    <meta charset = "utf-8" />
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel = "stylesheet" media = "screen" href = "css/meyersreset-and-normalize-form.css" />
+    <link rel = "stylesheet" media = "screen" href = "css/screen.css" />
+  </head>
+
+  <body>
+    <!-- I am creating my HTML input form for the email address, phone number, and date of birth -->
+    <form action = "/ITMD-362-Lab2-form-page" method = "post" autocomplete = "on">
+      <ul>
+	    <li>
+	      <label for="email_address">Email Address:</label>
+          <input type="email" id="email_address" name="email_address"/>
+        </li>
+	    <li>
+		  <label for="phone_number">Phone Number:</label>
+		  <input type="tel" id = "phone_number" name="phone_number"/>
+	    </li>
+	    <li>
+	      <label for="date_of_birth">Date of Birth:</label>
+		  <input type="date" id="date_of_birth" name="date_of_birth"/>
+	    </li>
+	  
+	    <!-- I am creating the submit button -->
+	    <li class = "button">
+	     <button type = "submit">Submit</button>
+        </li>
+	  </ul>
+    </form>
+  
+  </body>
+</html>
