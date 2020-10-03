@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang = "en" class = "nojs">
   <head>
-    <title>ITMD-362-Lab 2, Sean Reimer</title>
+    <title>ITMD-362-Project 1, Sean Reimer</title>
     <meta charset = "utf-8" />
     <meta name = "viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel = "stylesheet" media = "screen" href = "css/meyersreset-and-normalize-form.css" />
     <link rel = "stylesheet" media = "screen" href = "css/screen.css" />
+	<!-- attach javascript file here -->
   </head>
 
   <body>
-    <!-- I am creating my HTML input form for the email address, phone number, and date of birth -->
-    <form action = "/ITMD-362-Lab2-form-page" method = "post" autocomplete = "on">
-      <ul>
+    <!-- I am creating my HTML input form for folks who want to sign up to my discord server -->
+    <form action = "/ITMD-362-Project1-form-page" method = "post" autocomplete = "on">
+	
+	<!-- Creating my introduction paragraph -->
+	<p>Hello!  This form is to sign up for my gaming discord server, Weebs...Unite!  Please fill out the following info to register for my server</p>
+      <ul> <!-- HTML input for first name, last name, username, cell number -->
+		   <!-- preferred way of communication, region, preferred genres of games -->
+	    <li>
+	      <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name"/>
+        </li>
 	    <li>
 	      <label for="email_address">Email Address:</label>
           <input type="email" id="email_address" name="email_address"/>
