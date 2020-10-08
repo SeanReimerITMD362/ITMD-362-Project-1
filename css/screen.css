@@ -21,6 +21,7 @@ form {
   /* Center the form on the page */
   margin: 0 auto;
   width: fit-content;
+  text-align: center;
   /* Form outline */
   padding: 2em;
   border: 5px solid #CCC;
@@ -43,7 +44,7 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 300px;
+  width: 100%;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ input:focus {
 
 .button {
   /* Align buttons with the text fields */
-  width: 325px;
+  width: 100%;
   text-align: center;
 }
 
