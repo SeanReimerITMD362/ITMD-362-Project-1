@@ -8,8 +8,8 @@ $(document).ready(function(){
       username: {},
 	  phone_number: {},
 	  prefer_comm: {},
-	  region {},
-	  game_genre {}
+	  region: {},
+	  game_genre: {}
     };
 	
 // Creating jQuery function for submission 
