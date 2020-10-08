@@ -18,11 +18,9 @@ p {
 }
 
 form {
-  /* Center the form on the page */
   margin: 0 auto;
   width: fit-content;
   text-align: center;
-  /* Form outline */
   padding: 2em;
   border: 5px solid #CCC;
   border-radius: 2em;
@@ -42,38 +40,41 @@ form li + li {
 }
 
 label {
-  /* Uniform size & alignment */
   display: inline-block;
   width: 100%;
   text-align: center;
 }
 
 input {
-  /* To make sure that all text fields have the same font settings
-     By default */
   font: 14px monospace;
-
-  /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
-
-  /* Match form field borders */
   border: 1px solid #999;
 }
 
 input:focus {
-  /* Additional highlight for focused elements */
   border-color: #000;
 }
 
 .button {
-  /* Align buttons with the text fields */
   width: 100%;
   text-align: center;
 }
 
 button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
   color: red;
+}
+
+@media screen and (min-width: 480px) {
+  p {
+    font: 30px sans-serif;
+  background-color: green;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font: 20px sans-serif;
+  background-color: yellow;
+  }
 }
