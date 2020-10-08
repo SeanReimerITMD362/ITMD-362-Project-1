@@ -6,10 +6,10 @@ $(document).ready(function(){
       first_name: {},
       last_name: {},
       username: {},
-	  phone_number: {},
-	  prefer_comm: {},
-	  region: {},
-	  game_genre: {}
+	    phone_number: {},
+	    prefer_comm: {},
+	    region: {},
+	    game_genre: {}
     };
 	
 // Creating jQuery function for submission 
