@@ -3,15 +3,17 @@ form {
   margin: 0 auto;
   width: 400px;
   /* Form outline */
-  padding: 1em;
+  padding: 2em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 1px;
+  margin: 0 auto;
 }
 
 form li + li {
