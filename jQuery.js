@@ -35,7 +35,7 @@ $(document).ready(function(){
 	
 	// Creating jQuery function to display the data, and stringify
 	// the JS object into a JSON string
-    $('#display_data').click(function() {
+    $('#display_user').click(function() {
     $('p').text(JSON.stringify(people) );
     })
     })
