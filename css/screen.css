@@ -1,3 +1,4 @@
+/* Header title */
 h1 {
   text-align: center;
   padding: 1em;
@@ -8,6 +9,7 @@ h1 {
   margin-bottom: 1em;
 }
 
+/* paragraph description */
 p {
   text-align: center;
   font: 22px serif;
@@ -17,6 +19,7 @@ p {
   color: blue;
 }
 
+/* HTML user input form */
 form {
   margin: 0 auto;
   width: fit-content;
@@ -28,6 +31,7 @@ form {
   margin-bottom: 2px;
 }
 
+/* list tags within my HTML form */
 ul {
   list-style: none;
   padding: 3px;
@@ -39,12 +43,14 @@ form li + li {
   margin-bottom: 1em;
 }
 
+/* labels that are above the input boxes */
 label {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
 
+/* the text boxes that the users are inputting data in */
 input {
   font: 14px monospace;
   width: 300px;
@@ -56,6 +62,7 @@ input:focus {
   border-color: #000;
 }
 
+/* the submit and display user buttons */
 .button {
   width: 100%;
   text-align: center;
@@ -65,16 +72,85 @@ button {
   color: red;
 }
 
+/* smart devices media-query */
 @media screen and (min-width: 480px) {
   p {
-    font: 30px sans-serif;
-  background-color: green;
+    text-align: left;
+    font: 18px serif;
+    font-style: italic;
+    padding: 1px;
+    margin-bottom: 1em;
+    color: blue;
+  }
+
+  button {
+    color: blue;
+  }
+
+  input:focus {
+    border-color: black;
+  }
+
+  input {
+    font: 12px monospace;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid gray;
   }
 }
 
+/* tablet devices media-query */
 @media screen and (min-width: 768px) {
   p {
-    font: 20px sans-serif;
-  background-color: yellow;
+    text-align: left;
+    font: 20px serif;
+    font-style: none;
+    padding: 2px;
+    margin-bottom: 2em;
+    color: green;
+    background-color: yellow;
+  }
+
+  button {
+    color: green;
+  }
+
+  input:focus {
+    border-color: #000;
+  }
+
+  input {
+    font: 14px monospace;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+  }
+}
+
+/* desktop/laptop/PC devices media query */
+@media screen and (min-width: 1080px) {
+  p {
+    text-align: center;
+    font: 22px serif;
+    font-style: italic;
+    padding: 3px;
+    margin-bottom: 3em;
+    color: red;
+    background-color: lightgrey;
+  }
+
+  button {
+    color: red;
+  }
+
+  input:focus {
+    border-color: #000;
+  }
+
+  input {
+    font: 16px monospace;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
   }
 }
