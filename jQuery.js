@@ -1,11 +1,15 @@
 // Creating an object based off of the users input
 $(document).ready(function(){
   var people = [], // Creating 'people' object array
-    $ins = $('#first_name, #last_name, #fav_num'),
+    $ins = $('#first_name, #last_name, #username, #phone_number, #prefer_comm, #region, #game_genre'),
     counter = {
       first_name: {},
       last_name: {},
-      fav_num: {}
+      username: {},
+	  phone_number: {},
+	  prefer_comm: {},
+	  region {},
+	  game_genre {}
     };
 	
 // Creating jQuery function for submission 
