@@ -55,7 +55,7 @@ label {
 /* the text boxes that the users are inputting data in */
 input {
   font: 18px monospace;
-  width: 300px;
+  width: 90%;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -76,10 +76,6 @@ button {
 
 /* smart devices media-query */
 @media screen and (min-width: 480px) {
-h1 {
-    background-color: crimson;
-  }
-
   p {
     text-align: left;
     font: 22px serif;
@@ -116,7 +112,6 @@ h1 {
     padding: 2px;
     margin-bottom: 2em;
     color: green;
-    background-color: yellow;
   }
 
   button {
@@ -137,14 +132,17 @@ h1 {
 
 /* desktop/laptop/PC devices media query */
 @media screen and (min-width: 1080px) {
+  h1 {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   p {
     text-align: center;
-    font: 22px serif;
-    font-style: italic;
+    font: 25px;
     padding: 3px;
     margin-bottom: 3em;
     color: red;
-    background-color: lightgrey;
   }
 
   button {
@@ -156,9 +154,9 @@ h1 {
   }
 
   input {
-    font: 16px monospace;
-    width: 300px;
+    font: 18px monospace;
+    width: 90%;
     box-sizing: border-box;
-    border: 1px solid #999;
+    border: 3px solid #999;
   }
 }
