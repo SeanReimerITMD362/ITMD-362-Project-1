@@ -97,6 +97,10 @@ button {
     box-sizing: border-box;
     border: 1px solid gray;
   }
+
+  form {
+    background-color: aqua;
+  }
 }
 
 /* tablet devices media-query */
